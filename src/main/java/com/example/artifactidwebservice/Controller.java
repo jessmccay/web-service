@@ -8,6 +8,6 @@ public class Controller {
 
     @GetMapping("/")
     public String respond() {
-        return "Wassup!";
+        return "Yes! You've set up continous integragtion!";
     }
 }
